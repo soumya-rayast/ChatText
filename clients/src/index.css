@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border: 30px;
+    background-color: rgb(209, 209, 209);
+    transition: cubic-bezier(0.75, 0.85, 0.32, 1.2);
+}
